@@ -482,4 +482,15 @@ export const BlockTypes: { [key: string]: BlockType } = {
     createdBy: [{username: "seam", split: 1}],
     fullscreenEdit: false,
   },
+  "Color": { 
+    type: "Color",
+    displayName: "color",
+    displayDescription: "test1",
+    icon: "ColorIcon", // TODO: insert your app icon here
+    deprecated: false,
+    doesBlockPost: true,
+    doesBlockEdit: true,
+    createdBy: [{username: "janeenwang6", split: 1.0}],
+    fullscreenEdit: false,
+},
 };
